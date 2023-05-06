@@ -1,0 +1,266 @@
+@media (max-width: 750px) {
+  body {
+    background: url(images/bg_new.png);
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  nav {
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s;
+  }
+  .new-height {
+    height: 11vh;
+  }
+  .nav-upper-div {
+    justify-content: space-between;
+  }
+  .newmenu {
+    height: 2.2vh;
+    justify-content: center;
+  }
+  .newmenu ul {
+    list-style: none;
+    font-size: 4vw;
+    margin-left: 1vw;
+  }
+  .newmenu ul a {
+    text-decoration: none;
+    color: white;
+  }
+  .newnav {
+    transition: all 0.5s;
+  }
+  .li-div {
+    transition: all 0.2s;
+    box-sizing: border-box;
+    margin-right: 4vw;
+  }
+  .li-div:active {
+    letter-spacing: 0.5vw;
+    color: rgb(200, 200, 200);
+  }
+  .home {
+    width: 12vw;
+  }
+  .about {
+    width: 15vw;
+  }
+  .projects {
+    width: 20vw;
+    margin-right: 6vw;
+  }
+  .contact {
+    width: 16vw;
+  }
+  .menu {
+    display: none;
+  }
+  .corner-div {
+    width: 45%;
+    height: 7vh;
+    margin-left: 2vw;
+  }
+
+  .corner-img img {
+    width: 90%;
+  }
+
+  .corner-name {
+    margin-left: 7px;
+    width: 100%;
+    font-size: 5vw;
+  }
+
+  .ham-container-div {
+    display: flex;
+  }
+
+  .introphotodiv {
+    flex-direction: column;
+  }
+
+  .intros {
+    width: 98vw;
+    height: 35vh;
+    padding-left: 0vw;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .intro1 {
+    width: 90vw;
+    padding: auto 5vw;
+    font-size: 4vw;
+    color: white;
+  }
+
+  .intro2 {
+    width: 90vw;
+    padding: auto 5vw;
+    font-size: 13vw;
+    word-spacing: 1vw;
+    font-weight: 400;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .intro3 {
+    width: 90vw;
+    padding: auto 5vw;
+    font-size: 4vw;
+    color: #dbddd8;
+    line-height: 3vh;
+  }
+
+  .photo {
+    width: 100%;
+    height: 45vh;
+  }
+
+  .photo img {
+    border-radius: 250px;
+    width: 65%;
+  }
+
+  .CV {
+    width: 100%;
+    height: 10vh;
+    justify-items: flex-start;
+    align-items: center;
+  }
+
+  .CV button {
+    width: 35%;
+    height: 10vw;
+    border-radius: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s;
+    margin-left: 3.9vw;
+  }
+
+  .CV button:active {
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 1);
+    letter-spacing: 0.15vh;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 920px) {
+  nav {
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s;
+  }
+
+  .menu ul li {
+    margin-right: 5vw;
+    font-size: 2vw;
+  }
+
+  .corner-div {
+    width: 22%;
+    height: 7vh;
+    margin-left: 2vw;
+  }
+
+  .corner-img img {
+    width: 90%;
+  }
+
+  .menu {
+    width: 78%;
+    height: 7vh;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .corner-name {
+    width: 70%;
+    font-size: 2.2vw;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 921px) and (max-width: 1199px) {
+  .menu {
+    width: 85%;
+    height: 10vh;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .menu ul {
+    list-style: none;
+  }
+
+  .menu ul li {
+    margin-right: 3vw;
+    font-size: 2vw;
+  }
+  .corner-div {
+    width: 20%;
+    height: 10vh;
+    /* margin-left: 1vw; */
+  }
+  .corner-name {
+    width: 100%;
+    font-size: 2.2vw;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 1200px) {
+  .li-div {
+    height: 100%;
+    transition: all 0.2s;
+    box-sizing: border-box;
+    margin-right: 2vw;
+  }
+  .li-div:hover {
+    letter-spacing: 0.1vw;
+    cursor: pointer;
+    color: rgb(173, 173, 173);
+  }
+  .li-div:active {
+    letter-spacing: 0.1vw;
+    color: rgb(255, 255, 255);
+  }
+  .home {
+    width: 6vw;
+  }
+  .about {
+    width: 7.5vw;
+  }
+  .projects {
+    width: 9vw;
+  }
+  .contact {
+    width: 8vw;
+  }
+
+  .CV button:hover {
+    background-color: #292a2b;
+    letter-spacing: 0.2vh;
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.2);
+  }
+
+  .CV button:active {
+    box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 1);
+    letter-spacing: 0.15vh;
+  }
+}
